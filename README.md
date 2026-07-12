@@ -2,4 +2,4 @@ This project is a simple HTML & CSS recreation of the Google homepage. It demons
 
 🔗 Live Demo: https://jahnavi-212.github.io/google-homepage-clone/ (jahnavi-212.github.io in Bing)
 
-![Google Homepage Clone Screenshot](Screenshot 2026-07-12 160741.png)
+![Google Homepage Clone Screenshot](Screenshot 2026-07-12 160741)
