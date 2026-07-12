@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>GOOGLE</title>
+        <style>
+
+
+            .top {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                margin: 0px;
+                gap: 10px;
+                justify-content: end;
+                font-family: Arial;
+                cursor: pointer;
+            }
+
+
+            .profile {
+                object-fit: cover;
+                object-position: center;
+                border-radius: 50%;
+                height: 30px;
+            }
+
+
+            .profile-1 {
+                font-weight: 900;
+                font-size: 20px;
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+
+
+            .google {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                margin: 30px auto 30px auto;
+            }
+
+
+            .search-bar {
+                display: flex;
+                align-items: center;
+                width: 700px;
+                height: 40px;
+                border-radius: 20px;
+                border: 1px solid lightgrey;
+                box-shadow: 0px 0px 5px lightgrey;
+                padding: 0 15px;
+                background-color: white;
+                flex-direction: row;
+                justify-content: center;
+                margin: 0 auto;
+            }
+
+
+            .search-bar input {
+                flex: 1;
+                border: none;
+                outline: none;
+                font-size: 16px;
+                padding: 0 5px;
+            }
+
+
+            .icon {
+                width: 20px;
+                height: 20px;
+                margin: 0 8px;
+                cursor: pointer;
+            }
+
+
+            .icons-bs {
+                display: flex;
+                flex-direction: row;   
+                justify-content: center; 
+                align-items: center;   
+                gap: 30px;             
+                margin: 30px auto;
+                width: fit-content;    
+                font-family: Arial;
+                text-align: center;
+            }
+
+
+            .icons-bs div {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+            }
+
+
+            .circle {
+                background-color: aliceblue;   
+                border-radius: 50%;            
+                width: 70px;                   
+                height: 70px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-bottom: 8px;
+                transition: background-color 0.2s ease;
+            }
+
+
+            .circle:hover {
+                background-color: #dceeff;     
+            }
+
+
+            .circle img {
+                width: 30px;
+                height: 30px;
+            }
+
+
+            .icons-bs p {
+                font-size: 12px;
+                margin: 0;
+            }
+
+
+            .last {
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+                margin-top: 130px;
+            }
+
+
+            .last-butt {
+                display: flex;
+                align-items: center;
+                background-color: rgb(216, 235, 252);
+                border: 1px solid lightgrey;
+                width: 160px;
+                height: 40px;
+                border-radius: 20px;
+                box-shadow: 0px 0px 5px lightgrey;
+                cursor: pointer;
+            }
+
+            .last-butt:hover {
+                background-color: aliceblue;
+            }
+
+
+            .last-butt:active {
+                background-color: blue;
+                color: white;
+            }
+
+
+            .pen {
+                margin-right: 5px;
+            }
+            .pen-active {
+                color: white;
+            }
+
+
+        </style>
+
+    </head>
+
+    <body>
+
+        <div class="top">
+            <p>Gmail</p>
+            <p>Images</p>
+            <p class="profile-1">&#8942;&#8942;&#8942;</p>
+            <img class="profile" src="unnamed.png" alt="Profile">
+        </div>
+
+        <div>
+            <img class="google" src="google_logo.svg" alt="Google Logo">
+        </div>
+
+        <div class="search-bar">
+            <form action="https://www.google.com/search" method="GET" style="display:flex; flex:1; align-items:center;">
+                <button type="submit" style="background:none; border:none; cursor:pointer;">
+                    <img class="icon" src="search_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24 (1).svg" alt="Search">
+                </button>
+                <input type="text" name="q" placeholder="Search Google or type a URL">
+                <!-- Voice search link -->
+                <a href="https://www.google.com/search?hl=en&tbm=isch&sa=X&ved=0ahUKEwi" target="_blank">
+                    <img class="icon" src="mic icon.jpg" alt="Voice Search">
+                </a>
+                <!-- Image search link -->
+                <a href="https://images.google.com/" target="_blank">
+                    <img class="icon" src="img icon.webp" alt="Image Search">
+                </a>
+            </form>
+        </div>
+
+        <div class="icons-bs">
+
+            <div>
+                <div class="circle"><img src="download.png" alt="Google Search"></div>
+                <p>Google Search</p>
+            </div>
+
+            <div>
+                <div class="circle"><img src="download (1).png" alt="Oracle MyLearn"></div>
+                <p>Oracle MyLearn</p>
+            </div>
+
+            <div>
+                <div class="circle"><img src="download (2).png" alt="File"></div>
+                <p>160036623-8bd...</p>
+            </div>
+
+            <div>
+                <div class="circle"><img src="download.png" alt="Error"></div>
+                <p>Error 400 (Bad ...)</p>
+            </div>
+
+            <div>
+                <div class="circle"><img src="download (3).png" alt="Web Store"></div>
+                <p>Web Store</p>
+            </div>
+
+            <div>
+                <div class="circle"><img src="plus.png" alt="Add Shortcut"></div>
+                <p>Add shortcut</p>
+            </div>
+
+        </div>
+
+        <div class="last">
+
+            <button class="last-butt">
+                <img class="pen" src="edit_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg" alt="Edit">Customize Chrome
+            </button>
+        </div>
+
+    </body>
+
+</html>
